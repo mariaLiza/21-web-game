@@ -1,6 +1,6 @@
 #icon {
     size: 50%;
-    opacity: 200%;
+    opacity:300%;
 }
 
 body {
@@ -14,6 +14,61 @@ body {
 h1 {
     display: flex;
     justify-content: center;
-    margin: 40pt;
-    
+    margin: 75pt;
 }
+#title {
+    background-color: rgba(255, 174, 0, 0.502);
+    border: solid 1px #f5f5f5;
+    box-shadow: 3px 3px red, -1em 0 .4em goldenrod;
+}
+#start {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#startGame {
+    font-family: Impact;
+    height: 50pt;
+    width: 80pt;
+    font-weight: lighter;
+    font-size: large;
+    color: whitesmoke;
+    font-size: 20pt;
+    background-color: rgba(255, 174, 0, 0.502);
+    box-shadow: 3px 3px red, -1em 0 .4em goldenrod;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;    
+}
+
+#hit {
+    font-family: Impact;
+    height: 20pt;
+    width: 50pt;
+    font-weight: lighter;
+    font-size: large;
+    color: whitesmoke;
+    font-size: 16pt;
+    margin-right: 10px;
+    background-color: rgba(255, 174, 0, 0.502); 
+}
+
+#stay {
+    justify-content: space-evenly;
+    font-family: Impact;
+    height: 20pt;
+    width: 50pt;
+    font-weight: lighter;
+    font-size: large;
+    color: whitesmoke;
+    font-size: 16pt;
+    margin-left: 10px;
+    background-color: rgba(255, 174, 0, 0.502);
+}
+
