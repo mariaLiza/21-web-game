@@ -1,0 +1,19 @@
+#icon {
+    size: 50%;
+    opacity: 200%;
+}
+
+body {
+    background-image: url("https://media1.tenor.com/images/244cc4b074e4f768d813c4bd0c7bef6b/tenor.gif?itemid=15561295");
+    background-size: cover;
+    image-orientation: initial;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 40pt;
+    
+}
