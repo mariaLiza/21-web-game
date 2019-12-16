@@ -1,6 +1,6 @@
 #icon {
     size: 50%;
-    opacity:300%;
+    opacity: 300%;
 }
 
 body {
@@ -9,18 +9,20 @@ body {
     image-orientation: initial;
     height: 100vh;
     background-repeat: no-repeat;
-  }
+}
 
 h1 {
     display: flex;
     justify-content: center;
     margin: 75pt;
 }
+
 #title {
     background-color: rgba(255, 174, 0, 0.502);
     border: solid 1px #f5f5f5;
     box-shadow: 3px 3px red, -1em 0 .4em goldenrod;
 }
+
 #start {
     display: flex;
     justify-content: center;
@@ -44,7 +46,7 @@ h1 {
     flex-flow: row;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10%;    
+    margin-top: 10%;
 }
 
 #hit {
@@ -56,7 +58,7 @@ h1 {
     color: whitesmoke;
     font-size: 16pt;
     margin-right: 10px;
-    background-color: rgba(255, 174, 0, 0.502); 
+    background-color: rgba(255, 174, 0, 0.502);
 }
 
 #stay {
@@ -74,5 +76,35 @@ h1 {
 
 #cards {
     display: flex;
+    justify-content: left;
+}
+
+#pageSections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#playerCards {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+h3 {
+    display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
+    color: whitesmoke;
+    background-color: rgba(255, 174, 0, 0.502);
+    font-size: 16pt;
+    max-width: 35%;
+}
+
+#playerSum {
+    color: whitesmoke;
+    background-color: rgba(255, 174, 0, 0.502);
+    font-size: 20pt;
+    max-width: 30%;
+    text-align: center;
 }
