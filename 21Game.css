@@ -82,21 +82,27 @@ h1 {
 .pageSections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    justify-content: space-between;
 
 }
 
 #playerCards {
+    display: flex;
+    flex-direction: row;
+    flex-flow: initial;
     color: whitesmoke;
     font-family: Impact;
     letter-spacing: 1px;
-    font-size: medium;
+    font-size: 15pt;
 }
 
 h3 {
+    display: flex;
     margin: auto;
     justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: wrap;
+    /* flex-wrap: nowrap; */
     color: whitesmoke;
     background-color: rgba(255, 174, 0, 0.502);
     font-size: 16pt;
@@ -104,23 +110,31 @@ h3 {
 }
 
 #playerSum {
+    display: flex;
+    flex-direction: row;
     color: whitesmoke;
     background-color: rgba(255, 174, 0, 0.502);
-    font-size: 20pt;
-    max-width: 30%;
+    font-size: 15pt;
+    max-width: 30pt;
+    max-height: 50pt;
     text-align: center;
+
 }
 
 #dealer {
-    flex-wrap: nowrap;
+    display: grid;
+    grid-auto-rows: auto;
+    flex-wrap: wrap;
     color: whitesmoke;
     background-color: rgba(255, 174, 0, 0.502);
-    font-size: 16pt;
-    max-width: 35%;
+    font-size: 15pt;
+    max-width: 30%;
+    max-height: 50pt;
 }
 
 
 #dealerSum {
+    display: flex;  
     color: whitesmoke;
     background-color: rgba(255, 174, 0, 0.502);
     font-size: 20pt;
