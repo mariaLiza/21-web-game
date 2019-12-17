@@ -56,6 +56,12 @@ document.addEventListener("DOMContentLoaded", () => {
         Number(res.data.cards[0].value) + Number(res.data.cards[1].value)
 
       playerSum.innerText = `Your score is ${playerScore}`
+
+      if (playerScore >= 21) {
+        playerSum.innerText = "You Lose"
+      } else {
+        playerSum.innerText = `Your score is ${playerScore}, do you Hit or Stay?`
+      }
     } catch (err) {
       console.log(err)
     }
